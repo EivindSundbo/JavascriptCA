@@ -21,7 +21,7 @@ async function makeApiCall() {
             container.innerHTML += `<a href="details.html?id=${data[i].id}" class="details">
                                         <h2>${data[i].name}</h2>
                                         <img class="img" src="${data[i].url}" alt="">
-                                    <p>Image ID: ${data[i].id}</p>
+                                        <p>Image ID: ${data[i].id}</p>
                                     </a>`
         }
 
